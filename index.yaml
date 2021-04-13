@@ -3,9 +3,9 @@ entries:
   gitlab:
   - apiVersion: v2
     appVersion: 13.8.2
-    created: "2021-04-13T21:56:05.379229244Z"
+    created: "2021-04-13T22:17:17.437268312Z"
     description: A Helm chart for GitLab
-    digest: 2e76b23af713da9f8ec36a6c3248b6afe6ddf77767ab6d6a00e51617bc3a5679
+    digest: 751c3ceb8811361e8ec0a11cb36129db2673a339dfa5187b10b8dd7fd8e552ea
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
     maintainers:
     - email: github.com@nemonik.com
@@ -15,4 +15,4 @@ entries:
     urls:
     - https://nemonik.github.io/helm-charts/gitlab-13.8.2.tgz
     version: 13.8.2
-generated: "2021-04-13T21:56:05.375506024Z"
+generated: "2021-04-13T22:17:17.433686262Z"
