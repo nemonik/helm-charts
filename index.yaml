@@ -3,9 +3,9 @@ entries:
   gitlab:
   - apiVersion: v2
     appVersion: 13.10.2
-    created: "2021-04-13T22:40:21.5207273Z"
+    created: "2021-04-20T20:42:18.068931346Z"
     description: A Helm chart for GitLab
-    digest: f5fa6747dc7cec6750dcf125e7d2645c4cd2e68ad151328cfac92600ced9bf35
+    digest: da909a0843fc0aac6ed52fc66ab36672749a6f040cbcc2dd38a8595e6be0bf69
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
     maintainers:
     - email: github.com@nemonik.com
@@ -15,18 +15,4 @@ entries:
     urls:
     - https://nemonik.github.io/helm-charts/gitlab-13.10.2.tgz
     version: 13.10.2
-  - apiVersion: v2
-    appVersion: 13.8.2
-    created: "2021-04-13T22:40:21.527257212Z"
-    description: A Helm chart for GitLab
-    digest: 751c3ceb8811361e8ec0a11cb36129db2673a339dfa5187b10b8dd7fd8e552ea
-    icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
-    maintainers:
-    - email: github.com@nemonik.com
-      name: Michael Joseph Walsh
-    name: gitlab
-    type: application
-    urls:
-    - https://nemonik.github.io/helm-charts/gitlab-13.8.2.tgz
-    version: 13.8.2
-generated: "2021-04-13T22:40:21.510469482Z"
+generated: "2021-04-20T20:42:18.065506566Z"
