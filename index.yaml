@@ -3,9 +3,9 @@ entries:
   gitlab:
   - apiVersion: v2
     appVersion: 13.10.3
-    created: "2021-05-15T02:34:45.775577471Z"
+    created: "2021-05-25T03:55:58.233930844Z"
     description: A Helm chart for GitLab
-    digest: ce623f98bfdcbe2905352ab75feb5a19ca27ccbdc29ee35a5c44b0e2bbb24b25
+    digest: 218d410d0f6ae456d877629540d231eb35e30682db96dfe0b7235765f83434fb
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
     maintainers:
     - email: github.com@nemonik.com
@@ -17,7 +17,7 @@ entries:
     version: 13.10.3
   - apiVersion: v2
     appVersion: 13.10.2
-    created: "2021-05-15T02:34:45.769660382Z"
+    created: "2021-05-25T03:55:58.229325703Z"
     description: A Helm chart for GitLab
     digest: da909a0843fc0aac6ed52fc66ab36672749a6f040cbcc2dd38a8595e6be0bf69
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
@@ -29,4 +29,19 @@ entries:
     urls:
     - https://nemonik.github.io/helm-charts/gitlab-13.10.2.tgz
     version: 13.10.2
-generated: "2021-05-15T02:34:45.765998565Z"
+  taiga:
+  - apiVersion: v2
+    appVersion: 6.1.1
+    created: "2021-05-25T03:55:58.235452824Z"
+    description: A Helm chart for Taiga
+    digest: 9df7dac20fbcebcded4335108e64cb5317b512100889dac91f306a06b1f046a5
+    icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
+    maintainers:
+    - email: github.com@nemonik.com
+      name: Michael Joseph Walsh
+    name: taiga
+    type: application
+    urls:
+    - https://nemonik.github.io/helm-charts/taiga-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-05-25T03:55:58.225798718Z"
