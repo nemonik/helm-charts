@@ -1,0 +1,43 @@
+image:
+  repository: plantuml/plantuml-server
+  pullPolicy: IfNotPresent
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+podAnnotations: {}
+
+podSecurityContext: {}
+  # fsGroup: 2000
+
+securityContext: {}
+  # capabilities:
+  #   drop:
+  #   - ALL
+  # readOnlyRootFilesystem: true
+  # runAsNonRoot: true
+  # runAsUser: 1000
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enable: false
+  # traefik.ingress.kubernetes.io/router.entrypoints: websecure
+  # traefik.ingress.kubernetes.io/router.tls: 'true'
+  # traefik.ingress.kubernetes.io/service.sticky.cookie: 'true'
+
+  hosts:
+    - host: plantuml.example.com
+      paths:
+        -  "/"
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
