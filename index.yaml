@@ -3,9 +3,9 @@ entries:
   gitlab:
   - apiVersion: v2
     appVersion: 13.12.0
-    created: "2021-05-28T17:41:20.375597654Z"
+    created: "2021-05-31T15:17:05.046792373Z"
     description: A Helm chart for GitLab
-    digest: 447069318536bd5b71e66fd55542cb3314acf9d955d8536da751f38b9d0f9b8c
+    digest: 6e30d82e9944b390e0ed82a83b8cb94f29319c91869df314f0f3aca3f673c462
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
     maintainers:
     - email: github.com@nemonik.com
@@ -17,7 +17,7 @@ entries:
     version: 13.12.0
   - apiVersion: v2
     appVersion: 13.10.3
-    created: "2021-05-28T17:41:20.371977314Z"
+    created: "2021-05-31T15:17:05.036130346Z"
     description: A Helm chart for GitLab
     digest: abb19117d60bba7bf42b119c86df8d7f1dcd7671a7980a7aec4e31ae50eab818
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
@@ -31,7 +31,7 @@ entries:
     version: 13.10.3
   - apiVersion: v2
     appVersion: 13.10.2
-    created: "2021-05-28T17:41:20.36897338Z"
+    created: "2021-05-31T15:17:05.033532414Z"
     description: A Helm chart for GitLab
     digest: da909a0843fc0aac6ed52fc66ab36672749a6f040cbcc2dd38a8595e6be0bf69
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
@@ -46,9 +46,9 @@ entries:
   plantuml-server:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-05-28T17:41:20.376258661Z"
+    created: "2021-05-31T15:17:05.047293979Z"
     description: A Helm chart for Kubernetes
-    digest: 88680063d3d60ef568f1ebaa96f6064b8ed96449a2fe5517da002ac81b94fb2e
+    digest: 061840512b8136ce4e5890bd423d62081c8fb5c9407f56daecf14bf4acc4879d
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
     maintainers:
     - email: github.com@nemonik.com
@@ -61,9 +61,9 @@ entries:
   taiga:
   - apiVersion: v2
     appVersion: 6.1.1
-    created: "2021-05-28T17:41:20.377851179Z"
+    created: "2021-05-31T15:17:05.048720596Z"
     description: A Helm chart for Taiga
-    digest: 65859298eda5f5c6df41b55205bb3709071ed27ebe5d65db75dcc65b663477a2
+    digest: 1ddaa37a2aa74206421d477170e55366ae2dca0f0affa525832a1683ef0226b1
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
     maintainers:
     - email: github.com@nemonik.com
@@ -73,4 +73,4 @@ entries:
     urls:
     - https://nemonik.github.io/helm-charts/taiga-6.1.1.tgz
     version: 6.1.1
-generated: "2021-05-28T17:41:20.365498541Z"
+generated: "2021-05-31T15:17:05.030841282Z"
