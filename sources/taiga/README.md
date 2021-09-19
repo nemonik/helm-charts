@@ -1,3 +1,8 @@
+[![GitHub license](https://img.shields.io/github/license/nemonik/taiga-helm)](./LICENSE)
+[![GitHub Forks](https://img.shields.io/github/forks/nemonik/taiga-helm?style=social)](https://github.com/nemonik/ameersbn-gitlab-helm/network/members)
+[![Github Stars](https://img.shields.io/github/stars/nemonik/taiga-helm?style=social)](https://github.com/nemonik/ameersbn-gitlab-helm/stargazers)
+<a href="https://www.buymeacoffee.com/nemonik" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="20" width="85"></a>
+
 # taiga-helm
 
 A helm chart for Taiga based off of the taiga-docker project found at [https://github.com/kaleidos-ventures/taiga-docker/](https://github.com/kaleidos-ventures/taiga-docker/).
@@ -14,8 +19,8 @@ You can clone this repo, enter the repository folder and then execute something 
 ./start_taiga.sh
 ```
 
-The script will spin up Taiga using the example [example_values.yaml](example_values.yaml) values file.  You will need
-to provide your own if you want to configure other settings, and ingress, etc.  Look at the [values.yaml](values.yaml)
+The script will spin up Taiga using the example [example_values.yaml](example_values.yaml) values file. You will need
+to provide your own if you want to configure other settings, and ingress, etc. Look at the [values.yaml](values.yaml)
 file for what to place in your own.
 
 ## To install via my chart repository
@@ -29,14 +34,14 @@ helm install taiga nemonik/taiga --namespace taiga --create-namespace -f example
 watch -n 15 kubectl get pods -n taiga
 ```
 
-Give it time for Taiga to come fully up.  It has to "migrate" data...
+Give it time for Taiga to come fully up. It has to "migrate" data...
 
 ## Create a super user in Taiga
 
-Once, all the pods are ready you will need to create a super user to access Taiga. To do this you 
-will need to run taigaio/taiga-back:latest container in the same namespace executing the command 
-`python manage.py createsuperuse` with a number of other environmental variables set.  The 
-[createsuperuser.sh](createsuperuser.sh) script at the root of the project provides an example 
+Once, all the pods are ready you will need to create a super user to access Taiga. To do this you
+will need to run taigaio/taiga-back:latest container in the same namespace executing the command
+`python manage.py createsuperuse` with a number of other environmental variables set. The
+[createsuperuser.sh](createsuperuser.sh) script at the root of the project provides an example
 for how to do this.
 
 ## Accessing Taiga
@@ -64,10 +69,10 @@ taigaGateway:
         paths:
           -  "/"
     tls: []
-``` 
+```
 
-This example uses Traefik to expose the ingress.  Configuring Traefik is out of scope of this 
-readme.  
+This example uses Traefik to expose the ingress. Configuring Traefik is out of scope of this
+readme.
 
 In my forthcoming updated Hands-on DevOps class I do this exposing Taiga over https, so when that
 drops you can find some insight how to do so there.
