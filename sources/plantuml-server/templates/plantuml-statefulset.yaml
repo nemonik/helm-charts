@@ -38,7 +38,7 @@ spec:
             - name: http
               containerPort: 8080
             - name: https
-              containerPort: 443
+              containerPort: 8443
           {{- with .Values.resources }}
           resources:
             {{- toYaml . | nindent 12 }}
