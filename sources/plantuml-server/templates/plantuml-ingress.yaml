@@ -1,3 +1,4 @@
+{{- $port := .Values.service.port -}}
 {{- if and .Values.ingress.enabled -}}
 {{- $kubeVersion := .Capabilities.KubeVersion.GitVersion   -}}
 {{- if semverCompare ">=1.14-0" $kubeVersion -}}
@@ -39,11 +40,11 @@ spec:
               {{- if semverCompare ">=1.19-0" $kubeVersion }}
               service:
                 name: {{ $fullName }}
-                port: {{ .Values.service.port }}
+                port: {{ $port }}
               {{- else if semverCompare ">=1.14-0" $kubeVersion }}
               backend:
                 serviceName: {{ $fullName }}
-                servicePort: {{ .Values.service.port }}
+                servicePort: {{ $port }}
               {{- end }}
         {{- end }}
   {{- end }}
