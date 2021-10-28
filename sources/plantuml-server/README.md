@@ -14,9 +14,13 @@ You can clone this repo, enter the repository folder and then execute something 
 ./start_plantuml-server.sh
 ```
 
-The script will spin up PlantUML-Server using the example [example_values.yaml](example_values.yaml) values file.  You will need
-to provide your own if you want to configure other settings, and ingress, etc.  Look at the [values.yaml](values.yaml) file
+The script will spin up PlantUML-Server using the example [example_values.yaml](example_values.yaml) values file. You will need
+to provide your own if you want to configure other settings, and ingress, etc. Look at the [values.yaml](values.yaml) file
 for what to place in your own.
+
+## Dockerfile
+
+The [./Dockerfile](./Dockerfile) is provided to create a PlantUML-Server container image configured to use a self-signed certificat and respond over https.
 
 ## To install via my chart repository
 
@@ -53,10 +57,10 @@ ingress:
       paths:
         -  "/"
   tls: []
-``` 
+```
 
-This example uses Traefik to expose the ingress.  Configuring Traefik is out of scope of this 
-readme.  
+This example uses Traefik to expose the ingress. Configuring Traefik is out of scope of this
+readme.
 
 In my forthcoming updated Hands-on DevOps class I do this exposing PlantUML-Server over https, so when that
 drops you can find some insight how to do so there.

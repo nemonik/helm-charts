@@ -20,8 +20,10 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
+  name: http
   type: ClusterIP
   port: 80
+  targetPort: http  
 
 ingress:
   enable: false

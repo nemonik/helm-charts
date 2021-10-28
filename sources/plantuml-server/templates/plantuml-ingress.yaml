@@ -39,12 +39,11 @@ spec:
               {{- if semverCompare ">=1.19-0" $kubeVersion }}
               service:
                 name: {{ $fullName }}
-                port:
-                  name: http
+                port: {{ .Values.service.port }}
               {{- else if semverCompare ">=1.14-0" $kubeVersion }}
               backend:
                 serviceName: {{ $fullName }}
-                servicePort: http
+                servicePort: {{ .Values.service.port }}
               {{- end }}
         {{- end }}
   {{- end }}
