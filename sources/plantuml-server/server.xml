@@ -67,9 +67,9 @@
          Define a non-SSL/TLS HTTP/1.1 Connector on port 8080
     -->
     <Connector port="8080" protocol="HTTP/1.1"
-               redirectPort="443"
+               redirectPort="88888888443"
                disableUploadTimeout="false"/>
-    <Connector port="88888888443" protocol="HTTP/1.1" SSLEnabled="true"
+    <Connector port="8443" protocol="HTTP/1.1" SSLEnabled="true"
                maxThreads="150" scheme="https" secure="true"
                keystoreFile="conf/keystore.jks" keystorePass="changeme"
                clientAuth="false" acceptCount="100"/>
