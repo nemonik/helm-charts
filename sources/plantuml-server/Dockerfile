@@ -8,4 +8,4 @@ COPY --from=builder keystore.jks /usr/local/tomcat/conf/keystore.jks
 
 COPY server.xml /usr/local/tomcat/conf/server.xml
 
-EXPOSE 443
+EXPOSE 8443
