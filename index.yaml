@@ -3,9 +3,9 @@ entries:
   gitlab:
   - apiVersion: v2
     appVersion: 14.2.3
-    created: "2021-10-28T15:05:46.514872018Z"
+    created: "2021-10-28T15:12:54.357733264Z"
     description: A Helm chart for GitLab
-    digest: 7d4dbb2e85c17720101315a0d102b3d9bedd31fe4119c29d33493e79c58facb4
+    digest: 927a332808ccf303f83f2149b10744bc4552e08c714fe28a4d4771fa89bef5c2
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
     maintainers:
     - email: github.com@nemonik.com
@@ -17,7 +17,7 @@ entries:
     version: 14.2.3
   - apiVersion: v2
     appVersion: 14.2.2
-    created: "2021-10-28T15:05:46.511521614Z"
+    created: "2021-10-28T15:12:54.354779047Z"
     description: A Helm chart for GitLab
     digest: cd1ed58aa5677268e888285de83f8f0536e55cfa526e7a399dbb0c9be23d29bd
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
@@ -31,7 +31,7 @@ entries:
     version: 14.2.2
   - apiVersion: v2
     appVersion: 13.12.0
-    created: "2021-10-28T15:05:46.506110407Z"
+    created: "2021-10-28T15:12:54.350465822Z"
     description: A Helm chart for GitLab
     digest: 182a731dc5c12cc39b99cd2b30bf74dcc8902b4c3b2d20ed9fedec5345a5237d
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
@@ -45,7 +45,7 @@ entries:
     version: 13.12.0
   - apiVersion: v2
     appVersion: 13.10.3
-    created: "2021-10-28T15:05:46.502481503Z"
+    created: "2021-10-28T15:12:54.347562006Z"
     description: A Helm chart for GitLab
     digest: abb19117d60bba7bf42b119c86df8d7f1dcd7671a7980a7aec4e31ae50eab818
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
@@ -59,7 +59,7 @@ entries:
     version: 13.10.3
   - apiVersion: v2
     appVersion: 13.10.2
-    created: "2021-10-28T15:05:46.497775397Z"
+    created: "2021-10-28T15:12:54.344093686Z"
     description: A Helm chart for GitLab
     digest: da909a0843fc0aac6ed52fc66ab36672749a6f040cbcc2dd38a8595e6be0bf69
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
@@ -74,9 +74,9 @@ entries:
   heimdall:
   - apiVersion: v2
     appVersion: 2.4.8
-    created: "2021-10-28T15:05:46.515508719Z"
+    created: "2021-10-28T15:12:54.358310567Z"
     description: A Helm chart for Kubernetes
-    digest: d0ee24f06dcbf659bb39551b8f45849638c25a6817c3c904361af68e19439eb6
+    digest: 2aa251667837ef29158a14576607216eccc26a07f137fd0e51bd6b04846ddc35
     name: heimdall
     type: application
     urls:
@@ -85,9 +85,9 @@ entries:
   plantuml-server:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-10-28T15:05:46.51616182Z"
+    created: "2021-10-28T15:12:54.35885657Z"
     description: A Helm chart for Kubernetes
-    digest: 59730b962abe84e14adb6b3149122217de8cf8fdb98c90e73cb00e993771c630
+    digest: d5c0cb2cbda1c15812f349b51e3b109a3a021637b4bf8c8e85badba62398104f
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
     maintainers:
     - email: github.com@nemonik.com
@@ -100,9 +100,9 @@ entries:
   taiga:
   - apiVersion: v2
     appVersion: 6.4.2
-    created: "2021-10-28T15:05:46.519692524Z"
+    created: "2021-10-28T15:12:54.361715086Z"
     description: A Helm chart for Taiga
-    digest: 54270b144d65a5f70f5c7e837e6c58e721927c061af2f3c05622f0ef740a59de
+    digest: cdce01396ffea9e9ab8f16dd274a279b12ec875cc7bbe962c2caac8a9195e86e
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
     maintainers:
     - email: github.com@nemonik.com
@@ -114,7 +114,7 @@ entries:
     version: 6.4.2
   - apiVersion: v2
     appVersion: 6.1.1
-    created: "2021-10-28T15:05:46.517862022Z"
+    created: "2021-10-28T15:12:54.360291878Z"
     description: A Helm chart for Taiga
     digest: db0180b264d221d4bb2ba55df8b4318d9ab0c63bfea92c8d8981e71f3f3d9cec
     icon: https://avatars.githubusercontent.com/u/176152?s=460&v=4
@@ -126,4 +126,4 @@ entries:
     urls:
     - https://nemonik.github.io/helm-charts/taiga-6.1.1.tgz
     version: 6.1.1
-generated: "2021-10-28T15:05:46.493612991Z"
+generated: "2021-10-28T15:12:54.339971663Z"
