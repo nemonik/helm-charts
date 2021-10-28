@@ -40,7 +40,8 @@ spec:
               {{- if semverCompare ">=1.19-0" $kubeVersion }}
               service:
                 name: {{ $fullName }}
-                port: {{ $serviceName }}
+                port: 
+                  name: {{ $serviceName }}
               {{- else if semverCompare ">=1.14-0" $kubeVersion }}
               backend:
                 serviceName: {{ $fullName }}
