@@ -18,10 +18,6 @@ The script will spin up PlantUML-Server using the example [example_values.yaml](
 to provide your own if you want to configure other settings, and ingress, etc. Look at the [values.yaml](values.yaml) file
 for what to place in your own.
 
-## Dockerfile
-
-The [./Dockerfile](./Dockerfile) is provided to create a PlantUML-Server container image configured to use a self-signed certificat and respond over https.
-
 ## To install via my chart repository
 
 ```
